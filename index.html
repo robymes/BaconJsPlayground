@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Bacon.JS Playground</title>
+    <link rel="stylesheet" type="text/css" href="bin/release/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bin/release/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="bin/release/css/bootstrap-datepicker.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Bacon.JS Playground</a>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>My ToDo</h1>
+            <p>A Todo sample application</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row show">
+            <div class="col-md-8" id="todoListView">
+                <div class="panel panel-default">
+                    <div class="panel-heading">ToDo Items</div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Title</th>
+                                <th>Description</th>
+                                <th>Due Date</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="col-md-4" id="newTodoItemView">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">New ToDo Item</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div role="form">
+                            <div class="form-group">
+                                <label>Title</label>
+                                <input type="text" class="form-control" placeholder="Enter ToDo title">
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <textarea class="form-control" placeholder="Enter ToDo description"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Due Date</label>
+                                <div class="input-group date">
+                                    <input type="text" class="form-control" placeholder="Enter Due Date"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+                                </div>
+                                <div class="alert alert-danger hidden" role="alert" style="margin-top: 5px;"><small><strong>Invalid Date!</strong></small></div>
+                            </div>
+                            <button type="submit" class="btn btn-default" disabled="disabled">Add ToDo Item</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row hidden">
+            <div class="jumbotron">
+                <h1>Item Detail</h1>
+                <p>This is the item #<span></span></p>
+                <p><strong></strong></p>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <p>&copy; RobyMes 2014</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="bin/release/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/linq.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/Bacon.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/maquette.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/velocity.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/bootstrap-datepicker.it.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="bin/release/js/bacon.model.min.js"></script>
+    <script type="text/javascript" src="bin/release/js/bacon.jquery.min.js"></script>
+    <script type="text/javascript" src="bin/debug/js/mytodo.js"></script>
+    <!--<script type="text/javascript" src="bin/release/js/mytodo.min.js"></script>-->
+</body>
+</html>

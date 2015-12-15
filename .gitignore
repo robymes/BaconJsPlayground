@@ -1,0 +1,7 @@
+bin
+obj
+release
+debug
+dev
+node_modules
+bower_components

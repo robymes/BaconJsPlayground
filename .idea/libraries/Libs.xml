@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="Libs" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/bin/debug/js/bootstrap-datepicker.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/Bacon.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/bootstrap.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/linq.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/bacon.model.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/moment-with-locales.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/jquery.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/bacon.jquery.js" />
+        <item url="file://$PROJECT_DIR$/bin/debug/js/velocity.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/bin/debug/js/bootstrap-datepicker.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/Bacon.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/maquette.min.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/bootstrap.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/linq.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/bootstrap-datepicker.it.min.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/bacon.model.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/moment-with-locales.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/jquery.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/bacon.jquery.js" />
+      <root url="file://$PROJECT_DIR$/bin/debug/js/velocity.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,60 @@
+{
+  "name": "BaconJsPlayground",
+  "version": "0.0.1",
+  "description": "BaconJS Playground",
+  "authors": [
+    "Roberto Messora"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v3.3.5",
+    "bootstrap-datepicker": "v1.4.0",
+    "jquery": "2.1.4",
+    "bacon": "0.7.83",
+    "bacon.jquery": "0.4.12",
+    "bacon.model": "0.1.12",
+    "moment": "2.10.6",
+    "linqjs": "3.0.5",
+    "maquette": "v2.0.0"
+  },
+  "devDependencies": {},
+  "resolutions": {
+    "webcomponentsjs": "^0.6.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/css/bootstrap-theme.css",
+        "dist/fonts/glyphicons-halflings-regular.eot",
+        "dist/fonts/glyphicons-halflings-regular.svg",
+        "dist/fonts/glyphicons-halflings-regular.ttf",
+        "dist/fonts/glyphicons-halflings-regular.woff",
+        "dist/fonts/glyphicons-halflings-regular.woff2",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "moment": {
+      "main": "min/moment-with-locales.js"
+    },
+    "bootstrap-datepicker": {
+      "main": [
+        "dist/css/bootstrap-datepicker.css",
+        "dist/css/bootstrap-datepicker3.css",
+        "dist/js/bootstrap-datepicker.js",
+        "dist/locales/bootstrap-datepicker.it.min.js"
+      ]
+    },
+    "maquette": {
+      "main": "dist/maquette.min.js"
+    }
+  }
+}
