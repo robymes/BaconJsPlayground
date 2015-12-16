@@ -1,5 +1,3 @@
-/*global console,require,process*/
-
 var gulp = require("gulp"),
     concat = require("gulp-concat"),
     eslint = require("gulp-eslint"),

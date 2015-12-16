@@ -3,11 +3,30 @@ this.rm = (function (rm) {
         var self = this;
 
         self.loadTodoItems = function () {
-            return jQuery.ajax([{
-                title: "Star Wars VII",
-                description: "Hype a mille",
-                dueDate: moment()
-            }]);
+            var items =
+                Enumerable.cycle({
+                    title: "Star Wars VII",
+                    description: "Hype a mille",
+                    dueDate: moment()
+                })
+                .take(1)
+                .union(
+                    Enumerable.cycle({
+                        title: "Todo ",
+                        description: "This is the Todo #",
+                        dueDate: moment()
+                    })
+                    .take(10)
+                    .select(function (item, i) {
+                        return {
+                            title: item.title + i,
+                            description: item.description + i,
+                            dueDate: item.dueDate
+                        };
+                    })
+                )
+                .toArray();
+            return jQuery.ajax(items);
         };
     };
     return rm;
